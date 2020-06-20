@@ -15,16 +15,16 @@
  4. Resources
  5. Outputs
  
-[ For further details refer to] ( https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
+[ For further details refer to]( https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
 # Context
 This demo shows how to deploy an windows VM using an  ARM templates .<br/>  We would be deploying the ARM template to Azure using Powershell.<br/> 
 
 # Key Terms
 1. Virtual Network(VNet) - It is fundamental building block of a private network in Azure which allows various resources to securely communicate with one another.<br/>
-     [For details] (https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
+     [For details](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
 2.   Subnets  - Subnets or Subnetwork are the logical isolation within a VNet.  <br/> It is done using Classless InterDomain Routing (CIDR).<br/>
 3.   Network Security groups (NSG) - It contains security rules for inblound and outbound network traffics which helps in filtering the traffic and ensure security.<br/>
-    [For details] (https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
+    [For details](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
 4.  Virtual Machine(VM) - It is an emulation of the computer system.They provide functionality of a physical computer. <br/> Azure supports all Windows server versions as well as all major Linux Distributions like Ubuntu, RedHat etc.<br/>
 
 
@@ -52,7 +52,9 @@ After the template is validated we are going to actually deploy the template by 
 ```bash 
 New-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
-
+Note: All deployments of templates here is in incremental mode.<br/>
+In incremental mode, Resource Manager leaves unchanged resources that exist in the resource group but aren't specified in the template. Resources in the template are added to the resource group.<br/>
+[For details on modes of ARM template deployments](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-modes)
 # Result
 After the template is succesfully deployed the Powershell will show the details of the deployments.<br/>
 <p align="center">
