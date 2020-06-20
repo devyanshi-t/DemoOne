@@ -54,6 +54,18 @@ New-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -T
 ```
 
 # Result
+After the template is succesfully deployed the Powershell will show the details of the deployments.<br/>
+<p align="center">
+<img src="./1.png">
+<br />
+</p>
+You can go to Azure portal to further verify that all deployments were successful.
+
+<p align="center">
+<img src="./2.png">
+<br />
+</p>
+
 # Template Details
 
 # There are three ways to deploy an ARM template in Azure:
