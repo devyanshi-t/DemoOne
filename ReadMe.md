@@ -39,6 +39,20 @@ This demo shows how to deploy an windows VM using an  ARM templates .<br/>  We w
 
 
 # Demonstration
+The ARM template created is going to be deployed by using Powershell. <br/>
+ PowerShell is a cross-platform task automation and configuration management framework by Microsoft which consists  of a command-line shell and scripting language. <br/>
+ PowerShell is built on top of the .NET Common Language Runtime (CLR).<br/>
+ [For details] (https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
+ 
+ First we are going to run a Powershell to test that the ARM template is valid.
+ ``` bash
+ Test-AzResourceGroupDeployment -ResourceGroupName "rsg-VM-demo" -TemplateFile azuredeploy.json -Mode incremental -TemplateParameterFile parameters.json
+```
+After the template is validated we are going to actually deploy the template by the Powershell script
+```bash 
+New-AzResourceGroupDeployment -ResourceGroupName "rsg-VM-demo" -TemplateFile azuredeploy.json -Mode incremental -TemplateParameterFile parameters.json
+```
+
 # Result
 # Template Details
 
