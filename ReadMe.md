@@ -34,7 +34,7 @@ This demo shows how to deploy an windows VM using an  ARM templates .<br/>  Also
 2.   Subnets  - Subnets or Subnetwork are the logical isolation within a VNet.  <br/> It is done using Classless InterDomain Routing (CIDR).<br/>
 3.   Network Security groups (NSG) - It contains security rules for inblound and outbound network traffics which helps in filtering the traffic and ensure security.<br/>
     [For details] (https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
-    4.  Virtual Machine(VM) - it is an emulation of the computer system.They provide functionality of a physical computer. <br/> Azure supports all Windows server versions as well as all majoe Linux Distributions like Ubuntu, RedHat etc.<br/>
+4.  Virtual Machine(VM) - it is an emulation of the computer system.They provide functionality of a physical computer. <br/> Azure supports all Windows server versions as well as all major Linux Distributions like Ubuntu, RedHat etc.<br/>
 # Demonstration
 # Result
 # Template Details
