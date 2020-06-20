@@ -12,4 +12,12 @@
 3. Also it contains the three ways of deploying ARM Templates to Azure.<br/> 
 
 
-# Demo
+# Deployment Details
+1.To deploy a VM we need to aasign it to a Virtual Network First.<br/>
+2. The azuredeploy template above first creates a Virtual Network with two subnets- Frontend and Backend Subnet.<br/>
+3. It also assignd Network Security Groups (NSG) to each of the subnets.<br/>
+4. The template defines the security rules for both of the subnets.<br/>
+5. It assigns Storage account, Network interface, Disks, Public IP address to the VM.<br/>
+6. It deploys the VM in the frontend subnet for demonstration purposes and enbles RDP connection for the VM.<br/>
+
+
