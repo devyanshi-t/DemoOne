@@ -22,8 +22,8 @@
 
 # Template Details
 
-## There are three ways to deploy an ARM template in Azure:
-### 1. Using Deploy
+# There are three ways to deploy an ARM template in Azure:
+### 1.  Deploy to Portal
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdevyanshi-t%2FDemoOne%2Fmaster%2Fazuredeploy.json"  target="_blank">
 <img src="http://azuredeploy.net/deploybutton.png"/> 
