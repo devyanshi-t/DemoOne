@@ -46,11 +46,11 @@ The ARM template created is going to be deployed by using Powershell. <br/>
  
  First we are going to run a Powershell to test that the ARM template is valid.
  ``` bash
- Test-AzResourceGroupDeployment -ResourceGroupName "rsg-VM-demo" -TemplateFile azuredeploy.json -Mode incremental -TemplateParameterFile parameters.json
+ Test-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
 After the template is validated we are going to actually deploy the template by the Powershell script
 ```bash 
-New-AzResourceGroupDeployment -ResourceGroupName "rsg-VM-demo" -TemplateFile azuredeploy.json -Mode incremental -TemplateParameterFile parameters.json
+New-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
 
 # Result
