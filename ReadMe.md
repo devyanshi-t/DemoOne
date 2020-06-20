@@ -15,16 +15,16 @@
  4. Resources
  5. Outputs
  
-[ For further details refer to]( https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
+[ For further details  on ARM templates refer ]( https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
 # Context
 This demo shows how to deploy an windows VM using an  ARM templates .<br/>  We would be deploying the ARM template to Azure using Powershell.<br/> 
 
 # Key Terms
 1. Virtual Network(VNet) - It is fundamental building block of a private network in Azure which allows various resources to securely communicate with one another.<br/>
-     [For details](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
+     [For details on Virtual Network refer](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
 2.   Subnets  - Subnets or Subnetwork are the logical isolation within a VNet.  <br/> It is done using Classless InterDomain Routing (CIDR).<br/>
 3.   Network Security groups (NSG) - It contains security rules for inblound and outbound network traffics which helps in filtering the traffic and ensure security.<br/>
-    [For details](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
+    [For details on Network Security Groupsin Azure refer](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
 4.  Virtual Machine(VM) - It is an emulation of the computer system.They provide functionality of a physical computer. <br/> Azure supports all Windows server versions as well as all major Linux Distributions like Ubuntu, RedHat etc.<br/>
 
 
@@ -42,7 +42,7 @@ This demo shows how to deploy an windows VM using an  ARM templates .<br/>  We w
 The ARM template created is going to be deployed by using Powershell. <br/>
  PowerShell is a cross-platform task automation and configuration management framework by Microsoft which consists  of a command-line shell and scripting language. <br/>
  PowerShell is built on top of the .NET Common Language Runtime (CLR).<br/>
- [For details] (https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
+ [For details on Powershell refer](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
  
  First we are going to run a Powershell to test that the ARM template is valid.
  ``` bash
