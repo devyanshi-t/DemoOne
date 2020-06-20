@@ -1,27 +1,57 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "virtualMachines_demovm_name": {
-            "value": null
-        },
-        "virtualNetworks_DemoVnet_name": {
-            "value": null
-        },
-        "networkInterfaces_demoVMNic_name": {
-            "value": null
-        },
-        "publicIPAddresses_myPublicIP_name": {
-            "value": null
-        },
-        "networkSecurityGroups_Back_NSG_name": {
-            "value": null
-        },
-        "networkSecurityGroups_Front_NSG_name": {
-            "value": null
-        },
-        "storageAccounts_aur465sh6fvxgsawinvm_name": {
-            "value": null
-        }
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": {
+      "value": "DemoVnet"
+    },
+    "virtualNetworkId": {
+      "value": "123"
+    },
+    "vnetAddressPrefix": {
+      "value": "20.0.0.0/16"
+    },
+    "subnet1Prefix": {
+      "value": "20.0.1.0/24"
+    },
+    "subnet1Name": {
+      "value": "FrontEndSubnet"
+    },
+    "subnet2Prefix": {
+      "value": "20.0.2.0/24"
+    },
+    "subnet2Name": {
+      "value": "BackendSubnet"
+    },
+    "rdpPort": {
+      "value": 50001
+    },
+    "Front_NSGName": {
+      "value": "Front_NSG"
+    },
+    "Back_NSGName": {
+      "value": "Back_NSG"
+    },
+    "location": {
+      "value": "[resourceGroup().location]"
+    },
+    "virtualMachineName": {
+      "value": "testVM"
+    },
+    "adminUsername": {
+      "value": "devyanshi"
+    },
+    "adminPassword": {
+      "value": "Test@123Demo"
+    },
+    "dnsLabelPrefix": {
+      "value": "testing"
+    },
+    "windowsOSVersion": {
+      "value": "2016-Datacenter"
+    },
+    "vmSize": {
+      "value": "Standard_D2_v3"
     }
+  }
 }
