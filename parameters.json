@@ -33,7 +33,7 @@
       "value": "Back_NSG"
     },
     "location": {
-      "value": "[resourceGroup().location]"
+      "value": "eastUS"
     },
     "virtualMachineName": {
       "value": "testVM"
@@ -45,7 +45,7 @@
       "value": "Test@123Demo"
     },
     "dnsLabelPrefix": {
-      "value": "testing"
+      "value": "testingdevyanshi"
     },
     "windowsOSVersion": {
       "value": "2016-Datacenter"
