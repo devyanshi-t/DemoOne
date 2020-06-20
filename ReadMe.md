@@ -27,8 +27,7 @@
 6. It deploys the VM in the frontend subnet for demonstration purposes and enbles RDP connection for the VM.<br/>
 
 # Context
-2. This demo shows how to deploy an windows VM using an  ARM templates .<br/>
-3. Also it contains the three ways of deploying ARM Templates to Azure.<br/> 
+This demo shows how to deploy an windows VM using an  ARM templates .<br/>  Also it contains the three ways of deploying ARM Templates to Azure.<br/> 
 
 # Demonstration
 # Result
