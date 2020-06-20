@@ -7,7 +7,7 @@
 </p>
 
 
- The way of  deploying infrastructure-as-code to Azure is  Azure Resource Manager (ARM) Templates  which are the obvious way of doing it simply and repeatedly. They define the objects you want, their types, names and properties in a JSON file which can be understood by the ARM API.<br/>
+ The way of  deploying infrastructure-as-code (IaC) to Azure is  Azure Resource Manager (ARM) Templates  which are the obvious way of doing it simply and repeatedly. They define the objects you want, their types, names and properties in a JSON file which can be understood by the ARM API.<br/>
  An ARM template usually has following sections:<br/>
  1. Parameters
  2. Variables
@@ -28,7 +28,13 @@
 
 # Context
 This demo shows how to deploy an windows VM using an  ARM templates .<br/>  Also it contains the three ways of deploying ARM Templates to Azure.<br/> 
-
+# Key Terms
+1. Virtual Network(VNet) - It is fundamental building block of a private network in Azure which allows various resources to securely communicate with one another.<br/>
+     [For details] (https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
+2.   Subnets  - Subnets or Subnetwork are the logical isolation within a VNet.  <br/> It is done using Classless InterDomain Routing (CIDR).<br/>
+3.   Network Security groups (NSG) - It contains security rules for inblound and outbound network traffics which helps in filtering the traffic and ensure security.<br/>
+    [For details] (https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
+    4.  Virtual Machine(VM) - it is an emulation of the computer system.They provide functionality of a physical computer. <br/> Azure supports all Windows server versions as well as all majoe Linux Distributions like Ubuntu, RedHat etc.<br/>
 # Demonstration
 # Result
 # Template Details
