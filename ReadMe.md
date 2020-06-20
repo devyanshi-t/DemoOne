@@ -1,15 +1,21 @@
 # Azure Resource Manager (ARM) template deployment of Windows Vitrtual Machine
 
-## Azure Resource Manager (ARM) Templates
+## Azure Resource Manager (ARM) Templates -An Introduction 
 <p align="center">
 <img src="./az.png">
 <br />
 </p>
 
 
-1. The way of  deploying infrastructure-as-code to Azure is  Azure Resource Manager (ARM) Templates  which are the obvious way of doing it simply and repeatedly. They define the objects you want, their types, names and properties in a JSON file which can be understood by the ARM API.<br/>
-2. This demo shows how to deploy an windows VM using an  ARM templates .<br/>
-3. Also it contains the three ways of deploying ARM Templates to Azure.<br/> 
+ The way of  deploying infrastructure-as-code to Azure is  Azure Resource Manager (ARM) Templates  which are the obvious way of doing it simply and repeatedly. They define the objects you want, their types, names and properties in a JSON file which can be understood by the ARM API.<br/>
+ An ARM template usually has following sections:<br/>
+ 1. Parameters
+ 2. Variables
+ 3. User Defined Function
+ 4. Resources
+ 5. Outputs
+ 
+[ For further details refer to] ( https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
 
 
 # Deployment Details
@@ -20,6 +26,12 @@
 5. It assigns Storage account, Network interface, Disks, Public IP address to the VM.<br/>
 6. It deploys the VM in the frontend subnet for demonstration purposes and enbles RDP connection for the VM.<br/>
 
+# Context
+2. This demo shows how to deploy an windows VM using an  ARM templates .<br/>
+3. Also it contains the three ways of deploying ARM Templates to Azure.<br/> 
+
+# Demonstration
+# Result
 # Template Details
 
 # There are three ways to deploy an ARM template in Azure:
