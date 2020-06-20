@@ -21,7 +21,7 @@ This demo shows how to deploy an windows VM using an  ARM templates .<br/>  We w
 
 # Key Terms
 1. Virtual Network(VNet) - It is fundamental building block of a private network in Azure which allows various resources to securely communicate with one another.<br/>
-     [For details on Virtual Network refe to this linkr](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
+     [For details on Virtual Network refer to this link](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
 2.   Subnets  - Subnets or Subnetwork are the logical isolation within a VNet.  <br/> It is done using Classless InterDomain Routing (CIDR).<br/>
 3.   Network Security groups (NSG) - It contains security rules for inblound and outbound network traffics which helps in filtering the traffic and ensure security.<br/>
     [For details on Network Security Groups in Azure refer to this link](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
