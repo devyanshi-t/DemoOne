@@ -27,7 +27,7 @@
 6. It deploys the VM in the frontend subnet for demonstration purposes and enbles RDP connection for the VM.<br/>
 
 # Context
-This demo shows how to deploy an windows VM using an  ARM templates .<br/>  We would be deploying the ARM template Azure using Powerahell.<br/> 
+This demo shows how to deploy an windows VM using an  ARM templates .<br/>  We would be deploying the ARM template to Azure using Powershell.<br/> 
 # Key Terms
 1. Virtual Network(VNet) - It is fundamental building block of a private network in Azure which allows various resources to securely communicate with one another.<br/>
      [For details] (https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
