@@ -31,7 +31,7 @@ This demo shows how to deploy an windows VM using an  ARM templates .<br/>  We w
 # Deployment Details
 1. To deploy a VM we need to aasign it to a Virtual Network First.<br/>
 2. The azuredeploy template above first creates a Virtual Network with two subnets- Frontend and Backend Subnet.<br/>
-3. It also assignd Network Security Groups (NSG) to each of the subnets. Figure velow shhows the parameters for this deployment<br/>
+3. It also assignd Network Security Groups (NSG) to each of the subnets. Figure below shows the  template for this deployment<br/>
 <p align="center">
 <img src="./3.png">
 <br />
@@ -44,7 +44,7 @@ This demo shows how to deploy an windows VM using an  ARM templates .<br/>  We w
 <img src="./4.png">
 <br />
 </p>
-7. The parameters that needs to be passed by the user are displayed in the parameters.json file. Default values can also be find there.
+7. The parameters that needs to be passed by the user are displayed in the parameters.json file. Default values can also be found there.
 <p align="center">
 <img src="./5.png">
 <br />
@@ -81,7 +81,6 @@ You can go to Azure portal to further verify that all deployments were successfu
 <br />
 </p>
 
-# Template Details
 
 # There are three ways to deploy an ARM template in Azure:
 ### 1.  Deploy to Portal
