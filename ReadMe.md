@@ -17,7 +17,8 @@
  
 [ For further details  on ARM templates refer to this link ]( https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
 # Context
-This demo shows how to deploy an windows VM using an  ARM templates .<br/>  We would be deploying the ARM template to Azure using Powershell.<br/> 
+1. This demo shows how to deploy an windows VM using an  ARM templates .<br/>  
+2. We would be deploying the ARM template to Azure using Powershell.<br/> 
 
 # Key Terms
 1. Virtual Network(VNet) - It is fundamental building block of a private network in Azure which allows various resources to securely communicate with one another.<br/>
