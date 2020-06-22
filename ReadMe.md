@@ -39,7 +39,7 @@
 
 <p align="center">
 <img src="./figures/5.png">
-Figure 3: Parameter.json file 
+    Figure 3: Parameter.json file 
 <br />
 </p> 
 
