@@ -43,7 +43,7 @@ Figure 3: Parameter.json file
 </p> 
 
 
-# Deeployment Steps
+# Deployment Steps
 The ARM template created is going to be deployed by using Powershell. <br/>
  PowerShell is a cross-platform task automation and configuration management framework by Microsoft which consists  of a command-line shell and scripting language. <br/>
  PowerShell is built on top of the .NET Common Language Runtime (CLR).<br/>
@@ -54,6 +54,7 @@ The ARM template created is going to be deployed by using Powershell. <br/>
 
 <br />
 </p> 
+
  1. Open Powershell for windows and set to path to folder consisting the template files.
  2. Connect to Azure Account.
  3.Then we are going to run a Powershell to test that the ARM template is valid.
@@ -64,9 +65,12 @@ The ARM template created is going to be deployed by using Powershell. <br/>
 ```bash 
 New-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
+
 Note: All deployments of templates here is in incremental mode.<br/>
 In incremental mode, Resource Manager leaves unchanged resources that exist in the resource group but aren't specified in the template. Resources in the template are added to the resource group.<br/>
 [For details on modes of ARM template deployments refer to this link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-modes)
+
+
 # Output
 After the template is succesfully deployed the Powershell will show the details of the deployments.<br/>
 <p align="center">
