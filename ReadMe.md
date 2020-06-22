@@ -35,7 +35,8 @@
                 Figure 2: Template Parameters for VM
                 <br />
                 </p>
-9. The parameters that needs to be passed by the user are displayed in the parameters.json file. Default values can also be found there.
+9. The parameters that needs to be passed by the user are displayed in the parameters.json file. Default values can also be found there.<br/>
+
 <p align="center">
 <img src="./figures/5.png">
 Figure 3: Parameter.json file 
