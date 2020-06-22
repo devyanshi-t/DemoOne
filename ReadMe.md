@@ -17,7 +17,7 @@
 
 
  1. The Figure belows shows the parameters for the Virtual Network Deployment.
- <p align="center">
+                <p align="center">
                 <img src="./figures/3.png">
                 Figure 1: Template Parameters for Virtual Network
                 <br />
@@ -32,7 +32,7 @@
                 <br />
                 </p>
 5. . The parameters that needs to be passed by the user are displayed in the parameters.json file. Default values can also be found there.<br/>
-<p align="center">
+               <p align="center">
                 <img src="./figures/5.png">
                 Figure 3: Parameters.json file 
                 <br />
@@ -46,7 +46,7 @@ The ARM template created is going to be deployed by using Powershell. <br/>
  [For details on Powershell refer to this link](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
  
 
-<
+
  1. Open Powershell for windows and set the path to folder consisting the template files.
  2. Connect to Azure Account by the below command .You will be provided with a link and code. Go to the link and enter the code to connect.<br/>
  ```bash 
