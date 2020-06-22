@@ -66,7 +66,7 @@ The ARM template created is going to be deployed by using Powershell. <br/>
  ``` bash
  Test-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
-4. fter the template is validated we are going to actually deploy the template by the Powershell script
+4. After the template is validated we are going to actually deploy the template by the Powershell script
 ```bash 
 New-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
