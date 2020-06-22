@@ -2,7 +2,7 @@
 
 ## Azure Resource Manager (ARM) Templates -An Introduction 
 <p align="center">
-<img src="./az.png">
+<img src="./figures/az.png">
 <br />
 </p>
 
