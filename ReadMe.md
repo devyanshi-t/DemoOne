@@ -37,7 +37,7 @@ This demo shows how to deploy an windows VM using an  ARM templates .<br/>  We w
 Figure 1: Template parameters for Vnet
 <br />
 </p>
-Figure 1.2: Detailed Architecture in Azure
+
 4. The template defines the security rules for both of the subnets.<br/>
 5. It assigns Storage account, Network interface, Disks, Public IP address to the VM.<br/>
 6. It deploys the VM in the frontend subnet for demonstration purposes and enbles RDP connection for the VM as depicted by the figure below.<br/>
