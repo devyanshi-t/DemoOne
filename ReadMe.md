@@ -5,7 +5,7 @@ This demo shows how to deploy an azure windows VM using an ARM templates and con
                     
 ## Steps to deploy Azure Virtual Machine
 
-### 1. Template
+#### 1. Template
 
 The way of  deploying infrastructure-as-code (IaC) to Azure is Azure Resource Manager (ARM) Templates which are the obvious way of doing it simply and repeatedly. They define the objects you want, their types, names and properties in a JSON file which can be understood by the ARM API.<br/> 
 [ For further details  on ARM templates refer to this link ]( https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
@@ -34,10 +34,9 @@ The way of  deploying infrastructure-as-code (IaC) to Azure is Azure Resource Ma
                 </p>
 
       
-### 2. Steps to deploy
+#### 2. Steps to deploy
 The ARM template created is going to be deployed by using Powershell. <br/>
- PowerShell is a cross-platform task automation and configuration management framework by Microsoft which consists  of a command-line shell and scripting language. <br/>
- PowerShell is built on top of the .NET Common Language Runtime (CLR).<br/>
+ PowerShell is a cross-platform task automation and configuration management framework by Microsoft which consists  of a command-line shell and scripting language. PowerShell is built on top of the .NET Common Language Runtime (CLR).<br/>
  [For details on Powershell refer to this link](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
 
  1. Open Powershell for windows and set the path to folder consisting the template files.
@@ -59,7 +58,7 @@ New-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -T
 In incremental mode, Resource Manager leaves unchanged resources that exist in the resource group but aren't specified in the template. Resources in the template are added to the resource group.<br/>
 [For details on modes of ARM template deployments refer to this link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-modes)
 
-### Output
+#### Output
 After the template is succesfully deployed the Powershell will show the details of the deployments.<br/>
 <p align="center">
 <img src="./figures/1.png">
