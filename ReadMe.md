@@ -60,6 +60,11 @@ The ARM template created is going to be deployed by using Powershell. <br/>
  PowerShell is a cross-platform task automation and configuration management framework by Microsoft which consists  of a command-line shell and scripting language. <br/>
  PowerShell is built on top of the .NET Common Language Runtime (CLR).<br/>
  [For details on Powershell refer to this link](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
+ p align="center">
+<img src="./6.png">
+
+<br />
+</p> 
  
  First we are going to run a Powershell to test that the ARM template is valid.
  ``` bash
