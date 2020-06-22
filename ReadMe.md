@@ -25,7 +25,7 @@
                     <p align="center">
                     <img src="./figures/3.png">
                     Figure 1: Template parameters for Vnet
-                                <br />
+                    <br />
                     </p>
 6. The template defines the security rules for both of the subnets.<br/>
 7. It assigns Storage account, Network interface, Disks, Public IP address to the VM.<br/>
