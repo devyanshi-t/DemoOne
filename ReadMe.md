@@ -62,7 +62,7 @@ The ARM template created is going to be deployed by using Powershell. <br/>
  connect-AzAccount
  ```
  
- 3. Then we are going to run a Powershell to test that the ARM template is valid.
+ 3. Then we are going to run a Powershell  script to test that the ARM template is valid.
  ``` bash
  Test-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
