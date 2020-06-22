@@ -56,7 +56,7 @@ The ARM template created is going to be deployed by using Powershell. <br/>
 <br />
 </p> 
 
- 1. Open Powershell for windows and set to path to folder consisting the template files.
+ 1. Open Powershell for windows and set the path to folder consisting the template files.
  2. Connect to Azure Account by the below command .You will be provided with a link and code. Go to the link and enter the code to connect.<br/>
  ```bash 
  connect-AzAccount
