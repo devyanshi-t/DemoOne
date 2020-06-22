@@ -16,7 +16,7 @@
  5. Outputs
  
 [ For further details  on ARM templates refer to this link ]( https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
-### Context
+####  Context
 1. This demo shows how to deploy an windows VM using an ARM templates .<br/>  
 2. To deploy a VM we need to assign it to a Virtual Network First.<br/>
 3. The azuredeploy template above first creates a Virtual Network with two subnets- Frontend and Backend Subnet.
