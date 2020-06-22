@@ -32,13 +32,13 @@
                 <br />
                 </p>
 5. . The parameters that needs to be passed by the user are displayed in the parameters.json file. Default values can also be found there.<br/>
-
 <p align="center">
-<img src="./figures/5.png">
-    Figure 3: Parameter.json file 
-<br />
-</p> 
+                <img src="./figures/5.png">
+                Figure 3: Parameters.json file 
+                <br />
+                </p>
 
+      
 ### 2. Steps to deploy
 The ARM template created is going to be deployed by using Powershell. <br/>
  PowerShell is a cross-platform task automation and configuration management framework by Microsoft which consists  of a command-line shell and scripting language. <br/>
@@ -46,7 +46,7 @@ The ARM template created is going to be deployed by using Powershell. <br/>
  [For details on Powershell refer to this link](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
  
 
-
+<
  1. Open Powershell for windows and set the path to folder consisting the template files.
  2. Connect to Azure Account by the below command .You will be provided with a link and code. Go to the link and enter the code to connect.<br/>
  ```bash 
@@ -62,7 +62,7 @@ The ARM template created is going to be deployed by using Powershell. <br/>
 New-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
 
-Note: All deployments of templates here is in incremental mode.<br/>
+ <b>Note:</b> All deployments of templates here is in incremental mode.<br/>
 In incremental mode, Resource Manager leaves unchanged resources that exist in the resource group but aren't specified in the template. Resources in the template are added to the resource group.<br/>
 [For details on modes of ARM template deployments refer to this link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-modes)
 
