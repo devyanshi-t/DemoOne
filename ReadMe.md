@@ -5,7 +5,7 @@ This demo shows how to deploy an azure windows VM using an ARM templates and con
                     
 ## Steps to deploy Azure Virtual Machine
 
-### 1. Template
+#### 1. Template
 
 The way of  deploying infrastructure-as-code (IaC) to Azure is Azure Resource Manager (ARM) Templates which are the obvious way of doing it simply and repeatedly. They define the objects you want, their types, names and properties in a JSON file which can be understood by the ARM API.<br/> 
 [ For further details  on ARM templates refer to this link ]( https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
@@ -59,14 +59,14 @@ New-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -T
 In incremental mode, Resource Manager leaves unchanged resources that exist in the resource group but aren't specified in the template. Resources in the template are added to the resource group.<br/>
 [For details on modes of ARM template deployments refer to this link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-modes)
 
-### Output
+#### Output
 After the template is succesfully deployed the Powershell will show the details of the deployments.<br/>
 <p align="center">
 <img src="./figures/1.png">
 Figure 4: Deployment details on Powershell
 <br />
 </p>
-You can go to Azure portal to further verify that all deployments were successful.
+You can go to Azure portal to further verify that all of the deployments were successful.
 
 <p align="center">
 <img src="./figures/2.png">
