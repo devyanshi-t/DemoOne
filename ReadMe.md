@@ -60,7 +60,7 @@ In incremental mode, Resource Manager leaves unchanged resources that exist in t
 [For details on modes of ARM template deployments refer to this link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-modes)
 
 #### Output
-After the template is succesfully deployed the Powershell will show the details of the deployments.<br/>
+After the template is succesfully deployed ,the Powershell will show the details of the deployments.<br/>
 <p align="center">
 <img src="./figures/1.png">
 Figure 4: Deployment details on Powershell
