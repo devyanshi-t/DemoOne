@@ -19,7 +19,7 @@
 ####  Context
 1. This demo shows how to deploy an windows VM using an ARM templates .<br/>  
 2. To deploy a VM we need to assign it to a Virtual Network First.<br/>
-3. The azuredeploy template above first creates a Virtual Network with two subnets- Frontend and Backend Subnet.
+3. The azuredeploy template above first creates a Virtual Network with two subnets- Frontend and Backend Subnet.<br/>
 4. It also assignd Network Security Groups (NSG) to each of the subnets. Figure below shows the template for this deployment<br/>
 5. t also assignd Network Security Groups (NSG) to each of the subnets. Figure below shows the  template for this deployment<br/>
                     <p align="center">
@@ -57,7 +57,7 @@ The ARM template created is going to be deployed by using Powershell. <br/>
 
  1. Open Powershell for windows and set to path to folder consisting the template files.
  2. Connect to Azure Account.
- 3.Then we are going to run a Powershell to test that the ARM template is valid.
+ 3. Then we are going to run a Powershell to test that the ARM template is valid.
  ``` bash
  Test-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
