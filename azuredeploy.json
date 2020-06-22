@@ -9,12 +9,6 @@
                 "description": "Name of the Vnet to be deployed"
             }
         },
-        "virtualNetworkId": {
-            "type": "String",
-            "metadata":{
-            "description": "Unique ID of the Vnet resource"
-            }
-        },
         "vnetAddressPrefix": {
             "defaultValue": "20.0.0.0/16",
             "type": "String",
@@ -48,13 +42,6 @@
             "type": "String",
             "metadata": {
                 "description": "Name of second subnet inside the Vnet created."
-            }
-        },
-        "rdpPort": {
-            "defaultValue": 50001,
-            "type": "Int",
-            "metadata": {
-                "description": "Public port number for Remote Desktop Protocol"
             }
         },
         "Front_NSGName": {
@@ -127,12 +114,11 @@
         }
     },
     "variables": {
-        "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'sawinvm')]",
+        "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'demovm')]",
         "nicName": "demoVMNic",
         "publicIPAddressName": "myPublicIP",
         "virtualNetworkName": "[parameters('vnetName')]",
         "subnet1Name": "[parameters('subnet1Name')]",
-        "vnetId": "[parameters('virtualNetworkId')]",
         "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnet1Name'))]"
     },
     "resources": [
@@ -141,6 +127,9 @@
             "apiVersion": "2019-06-01",
             "name": "[variables('storageAccountName')]",
             "location": "[parameters('location')]",
+            "tags": {
+                "demo": "test"
+            },
             "sku": {
                 "name": "Standard_LRS"
             },
@@ -249,7 +238,8 @@
                 "[concat('Microsoft.Network/networkSecurityGroups/', parameters('Back_NSGName'))]"
             ],
             "tags": {
-                "demo": "one"
+                
+                "demo":"test"
             },
             "properties": {
                 "addressSpace": {
@@ -263,7 +253,7 @@
                     "type": "subnets",
                     "apiVersion": "2019-02-01",
                     "name": "[parameters('subnet1Name')]",
-                    "location": "[parameters('location')]",
+                    "location": "[parameters('location')]",  
                     "dependsOn": [
                         "[parameters('vnetName')]"
                     ],

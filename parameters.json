@@ -5,9 +5,6 @@
     "vnetName": {
       "value": "DemoVnet"
     },
-    "virtualNetworkId": {
-      "value": "123"
-    },
     "vnetAddressPrefix": {
       "value": "20.0.0.0/16"
     },
@@ -23,9 +20,6 @@
     "subnet2Name": {
       "value": "BackendSubnet"
     },
-    "rdpPort": {
-      "value": 50001
-    },
     "Front_NSGName": {
       "value": "Front_NSG"
     },
@@ -36,16 +30,16 @@
       "value": "eastUS"
     },
     "virtualMachineName": {
-      "value": "testVM"
+      "value": "demoVM"
     },
     "adminUsername": {
-      "value": "devyanshi"
+      "value": "testuser"
     },
     "adminPassword": {
-      "value": "Test@123Demo"
+      "value": "Azure@123Test"
     },
     "dnsLabelPrefix": {
-      "value": "testingdevyanshi"
+      "value": "devyanshidemoone"
     },
     "windowsOSVersion": {
       "value": "2016-Datacenter"
