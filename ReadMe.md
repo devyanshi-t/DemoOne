@@ -23,7 +23,7 @@
 4. It also assignd Network Security Groups (NSG) to each of the subnets. Figure below shows the template for this deployment<br/>
 5. t also assignd Network Security Groups (NSG) to each of the subnets. Figure below shows the  template for this deployment<br/>
                     <p align="center">
-                    <img src="./3.png">
+                    <img src="./figures/3.png">
                     Figure 1: Template parameters for Vnet
                                 <br />
                     </p>
@@ -31,13 +31,13 @@
 7. It assigns Storage account, Network interface, Disks, Public IP address to the VM.<br/>
 8. It deploys the VM in the frontend subnet for demonstration purposes and enbles RDP connection for the VM as depicted by the figure below.<br/>
                 <p align="center">
-                <img src="./4.png">
+                <img src="./figures/4.png">
                 Figure 2: Template Parameters for VM
                 <br />
                 </p>
 9. The parameters that needs to be passed by the user are displayed in the parameters.json file. Default values can also be found there.
 <p align="center">
-<img src="./5.png">
+<img src="./figures/5.png">
 Figure 3: Parameter.json file 
 <br />
 </p> 
@@ -50,7 +50,7 @@ The ARM template created is going to be deployed by using Powershell. <br/>
  [For details on Powershell refer to this link](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
  
  <p align="center">
-<img src="./6.png">
+<img src="./figures/6.png">
 
 <br />
 </p> 
@@ -74,14 +74,14 @@ In incremental mode, Resource Manager leaves unchanged resources that exist in t
 # Output
 After the template is succesfully deployed the Powershell will show the details of the deployments.<br/>
 <p align="center">
-<img src="./1.png">
+<img src="./figures/1.png">
 Figure 4: Deployment details on Powershell
 <br />
 </p>
 You can go to Azure portal to further verify that all deployments were successful.
 
 <p align="center">
-<img src="./2.png">
+<img src="./figures/2.png">
 Figure 5: Deployment summary on Azure Portal
 <br />
 </p>
