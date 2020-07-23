@@ -55,7 +55,7 @@ The way of  deploying infrastructure-as-code (IaC) to Azure is Azure Resource Ma
 New-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
 
- <b>Note:</b> All deployments of templates here is in incremental mode.<br/>
+ <b>Note:</b> All deployments of templates here are in incremental mode.<br/>
 In incremental mode, Resource Manager leaves unchanged resources that exist in the resource group but aren't specified in the template. Resources in the template are added to the resource group.<br/>
 [For details on modes of ARM template deployments refer to this link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-modes)
 
