@@ -18,7 +18,7 @@ The way of  deploying infrastructure-as-code (IaC) to Azure is Azure Resource Ma
                 <br />
                 </p>
  
-2. The template defines the security rules for both of the subnets.<br/>
+2. The template defines the security rules for both the frontand backend subnets.<br/>
 3. It assigns Storage account, Network interface, Disks, Public IP address to the VM.<br/>
 4. It deploys the VM in the frontend subnet for demonstration purposes and enbles RDP connection for the VM as depicted by the figure below.<br/>
                 <p align="center">
