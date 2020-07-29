@@ -70,7 +70,7 @@ You can go to Azure portal to further verify that all of the deployments were su
 
 <p align="center">
 <img src="./figures/2.png">
-Figure 5: Deployment summary on Azure Portal
+Figure 5: Deployment summary on the Azure Portal
 <br />
 </p>
 
