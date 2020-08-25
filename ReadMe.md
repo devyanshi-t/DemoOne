@@ -56,7 +56,7 @@ New-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -T
 ```
 
  <b>Note:</b> All deployments of templates here are in incremental mode.<br/>
-In incremental mode, Resource Manager leaves unchanged resources that exist in the resource group but aren't specified in the template. Resources in the templates are added to the resource group.<br/>
+In incremental mode, Resource Manager (RM) leaves unchanged resources that exist in the resource group but aren't specified in the template. Resources in the templates are added to the resource group.<br/>
 [For details on modes of ARM template deployments refer to this link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-modes)
 
 #### Output
