@@ -3,7 +3,7 @@
 ## Introduction
 This demo details how to deploy an Azure Windows VM using an ARM (Azure Resource Manager) templates and connect it to a Virtual Network with two subnets- Frontend and Backend Subnet.The template connects the VM to the frontend subnet. It also connects Network Security Groups (NSG) to each of the subnets. 
                     
-## Steps to deploy Azure Virtual Machine(VM)
+## Steps to deploy an Azure Virtual Machine(VM)
 
 #### 1. ARM Template for deployment
 
