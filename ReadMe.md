@@ -26,7 +26,7 @@ The way of  deploying infrastructure-as-code (IaC) to Azure is Azure Resource Ma
                 Figure 2: Template Parameters for VM
                 <br />
                 </p>
-5. The parameters that needs to be passed by the user are displayed in the parameters.json file. Default values can also be found there.<br/>
+5. The parameters that are required needs to be passed by the user are displayed in the parameters.json file. Default values can also be found there.<br/>
                <p align="center">
                 <img src="./figures/5.png">
                 Figure 3: Parameters.json file 
