@@ -11,7 +11,7 @@ The way of  deploying infrastructure-as-code (IaC) to Azure is Azure Resource Ma
 [ For further details  on ARM templates refer to this link ]( https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
 
 
-1. The Figure belows shows the parameters for the Virtual Network Deployment.
+1. The Figure belows depicts the parameters for the Virtual Network Deployment.
                 <p align="center">
                 <img src="./figures/3.png">
                 Figure 1: Template Parameters for Virtual Network
