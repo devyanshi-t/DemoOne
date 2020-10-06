@@ -35,7 +35,7 @@ The way of  deploying infrastructure-as-code (IaC) to Azure is Azure Resource Ma
 
       
 ### 2. Steps to deploy
- The ARM template created is going to be deployed by using Powershell. <br/>
+ The ARM template created is going to be deployed by using Powershell cmdlet. <br/>
  PowerShell is a cross-platform task automation and configuration management framework by Microsoft which consists  of a command-line shell and scripting language. <br/>
  PowerShell is built on top of the .NET Common Language Runtime (CLR).<br/>
  [For details on Powershell refer to this link](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
