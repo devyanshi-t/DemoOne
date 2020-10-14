@@ -50,7 +50,7 @@ The way of  deploying infrastructure-as-code (IaC) to Azure is Azure Resource Ma
  ``` bash
  Test-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
-4. After the template is validated we are going to actually deploy the template by the Powershell script
+4. After  template  validation is complete, we are going to actually deploy the template by the Powershell script
 ```bash 
 New-AzResourceGroupDeployment -ResourceGroupName "name of the resource group" -TemplateFile "yourtemplatefilename".json -Mode incremental -TemplateParameterFile "yourparametersfilename".json
 ```
