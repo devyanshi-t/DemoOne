@@ -66,7 +66,7 @@ After the template is succesfully deployed ,the Powershell will show the details
 Figure 4: Deployment details in Powershell
 <br />
 </p>
-We can go to Azure portal to verify that all of the deployments were successful.
+We can go to Azure portal to verify that all of the deployments was successful.
 
 <p align="center">
 <img src="./figures/2.png">
