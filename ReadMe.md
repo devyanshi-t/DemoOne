@@ -63,7 +63,7 @@ In incremental mode, Resource Manager (RM) leaves unchanged resources that exist
 After the template is succesfully deployed ,the Powershell will show the details of the deployments.<br/>
 <p align="center">
 <img src="./figures/1.png">
-Figure 4: Deployment details in Powershell
+Figure 4: Details of Deployment  in Powershell
 <br />
 </p>
 We can go to Azure portal to verify that all of the deployments was successful.
